@@ -18,6 +18,7 @@
   - [W3 WAI-ARIA Taxonomy](http://www.w3.org/TR/wai-aria/rdf_model.html)
   - [W3 WAI-ARIA States and Properties](http://www.w3.org/TR/wai-aria/states_and_properties)
   - [W3 WAI-ARIA Authoring Practices](http://www.w3.org/TR/wai-aria-practices/)
+  - [W3 Aria in HTML](http://w3c.github.io/aria-in-html/)
   - [W3 Web Design - Accessibility](http://www.w3.org/standards/webdesign/accessibility)
 
 # Extensions
