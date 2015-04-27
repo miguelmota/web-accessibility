@@ -9,7 +9,7 @@ Resources for developing with web accessibility in mind.
 - [Accessible Web Components](https://www.polymer-project.org/0.5/articles/accessible-web-components.html)
 - [Smashing Magazine - The WAI Forward](http://www.smashingmagazine.com/2014/07/09/the-wai-forward/)
 - [Accessibility Testing Tools](http://www.paciellogroup.com/blog/2014/10/accessibility-testing-tools-updated/)
-- # W3
+- W3
   - [W3 Intro to Web Accessibility](http://www.w3.org/WAI/intro/accessibility.php)
   - [W3 Web Content Accessibility Guidelines (WCAG) Overview](http://www.w3.org/WAI/intro/wcag)
   - [W3 Web Design - Accessibility](http://www.w3.org/standards/webdesign/accessibility)
