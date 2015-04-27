@@ -21,6 +21,7 @@ Here are some general guidelines to follow.
 - Have fallback text for icons
   - [Filament group - Bulletproof Accessible Icon Fonts](http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html)
 - Have a logical tab order.
+
   ```html
   <button tabindex="0"></button>
   ```
@@ -53,22 +54,27 @@ Here are some general guidelines to follow.
   <section role="search">Search this site</section>
   ```
 - Use aria roles indicate composite controls that do not have a native HTML equivalent.
+
     ```html
     <div tabindex="0" role="menuitem">Paste</div>
     ```
 - Use aria roles to indicate element types.
+
     ```html
     <div role="button">button</div>
     ```
 - Use aria states attributes.
+
     ```html
     <div role="checkbox" aria-checked="true"></div>
     ```
 - `aria-live` for dynamic content. Use `assertative` value to interupt user, or `polite` to wait until user is done with current task.
+
     ```html
     <output class="result" aria-live="polite"></output>
     ```
 - `aria-label` for describing objects with no text like icons.
+
     ```html
     <i class="nav-icon" aria-label="Navigation button"></i>
     ```
