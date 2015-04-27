@@ -27,7 +27,6 @@ Here are some general guidelines you can follow.
 - Use `aria-expanded` and `aria-hidden` attributes for tree navigation.
 - Add `aria-activedescendant` attribute to an autocomplete widget handler to tell adaptive technologies that the child elements have focus.
 - All form fields should have an associated `<label>` and `for` attribute, ie `for="my-textfield"`.
-- Touch target sizes for mobile should be at least 44px square.
 - Use landmark roles to identify seperate areas of your app.
   ```html
   <header role="header">
