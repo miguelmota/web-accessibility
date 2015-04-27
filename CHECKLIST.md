@@ -29,6 +29,19 @@ Here are some general guidelines to follow.
 - Don't use tables for visual layout. Use tables for data. Use CSS For layout.
 - Use anchors and buttons for links, not divs or spans. If element not focusable by default, then focus element, ie dialogs. When closed, focus back to element that opened dialog.
 - Use `aria-expanded` and `aria-hidden` attributes for tree navigation.
+
+  ```html
+    <nav role="menu" aria-expanded="true">
+       <div role="menuitem">Item one</div>
+       <div role="menuitem">Item two</div>
+    </nav>
+  ```
+
+  The `menu` role can have any of the following states
+
+  ```
+  aria-activedescendant aria-atomic aria-busy aria-controls aria-describedby aria-disabled aria-dropeffect aria-expanded aria-flowto aria-grabbed aria-haspopup aria-hidden aria-invalid aria-label aria-labelledby aria-live aria-owns aria-relevant
+  ```
 - Add `aria-activedescendant` attribute to an autocomplete widget handler to tell adaptive technologies that the child elements have focus.
 - All form fields should have an associated `<label>` and `for` attribute, ie `for="my-textfield"`.
 - Use landmark roles to identify seperate areas of your app.
