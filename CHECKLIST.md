@@ -1,4 +1,4 @@
-# Checklist
+# Accessibility Checklist
 
 Here are some general guidelines you can follow.
 
@@ -47,7 +47,6 @@ Here are some general guidelines you can follow.
   <footer role="contentinfo">
   </footer>
   ```
-
   ```html
   <section role="search">Search this site</section>
   ```
@@ -60,16 +59,11 @@ Here are some general guidelines you can follow.
   <div role="button">button</div>
   ```
 - Use aria states attributes.
-
   ```html
   <div role="checkbox" aria-checked="true"></div>
   ```
-
 - aria live for dynamic content
-
 - `aria-label` for describing objects with no text like icons.
   ```html
   <i class="nav-icon" aria-label="Navigation button"></i>
   ```
-
-
