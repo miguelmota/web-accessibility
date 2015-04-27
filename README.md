@@ -8,6 +8,7 @@
 - [MDN ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 - [Accessible Web Components with Polymer](https://www.polymer-project.org/0.5/articles/accessible-web-components.html)
 - [Smashing Magazine - The WAI Forward](http://www.smashingmagazine.com/2014/07/09/the-wai-forward/)
+- [The Paciello Group - Using WAI ARIA Landmark Roles](http://www.paciellogroup.com/blog/2010/10/using-wai-aria-landmark-roles/)
 - [The Paciello Group - Accessibility Testing Tools](http://www.paciellogroup.com/blog/2014/10/accessibility-testing-tools-updated/)
 - [W3 Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/)
   - [W3 Web Content Accessibility Guidelines (WCAG) Overview](http://www.w3.org/WAI/intro/wcag)
@@ -28,6 +29,10 @@
 
 # Tools
 - [A11y - Accessibility audit tooling for the web](https://github.com/addyosmani/a11y)
+
+# Checklist
+- [CHECKLIST.md](https://github.com/miguelmota/web-accessibility/blob/master/GUIDELINES.md)
+
 
 # License
 
