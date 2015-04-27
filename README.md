@@ -31,7 +31,7 @@
 - [A11y - Accessibility audit tooling for the web](https://github.com/addyosmani/a11y)
 
 # Checklist
-- [CHECKLIST.md](https://github.com/miguelmota/web-accessibility/blob/master/GUIDELINES.md)
+- [CHECKLIST.md](https://github.com/miguelmota/web-accessibility/blob/master/CHECKLIST.md)
 
 
 # License
