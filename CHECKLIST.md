@@ -61,7 +61,10 @@ Here are some general guidelines you can follow.
   ```html
   <div role="checkbox" aria-checked="true"></div>
   ```
-- aria live for dynamic content
+- `aria-live` for dynamic content. Use `assertative` value to interupt user, or `polite` to wait until user is done with current task.
+  ```html
+  <output class="result" aria-live="polite"></output>
+  ```
 - `aria-label` for describing objects with no text like icons.
   ```html
   <i class="nav-icon" aria-label="Navigation button"></i>
