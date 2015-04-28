@@ -2,7 +2,7 @@
 
 Here are some general guidelines to follow.
 
-- Users only see the DOM. Use correct HTML5 semantic elements.
+- Screen readers only see the DOM. Use correct HTML5 semantic elements.
 - Use correct heading hierachy.
 - Text elements should have a reasonable contrast ratio.
 - Controls and media elements should have labels.
