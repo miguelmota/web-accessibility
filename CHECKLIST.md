@@ -26,7 +26,7 @@ Here are some general guidelines to follow.
   <button tabindex="0"></button>
   ```
 - Apply focus state styles to make it clear element is focused.
-- Don't use tables for visual layout. Use tables for data. Use CSS For layout.
+- Don't use tables for visual layout. Use tables for data. Use CSS For layout. Use `role="presentation"` for layout if you must.
 - Use anchors and buttons for links, not divs or spans. If element not focusable by default, then focus element, ie dialogs. When closed, focus back to element that opened dialog.
 - Use `aria-expanded` and `aria-hidden` attributes for tree navigation.
 
@@ -46,22 +46,24 @@ Here are some general guidelines to follow.
 - All form fields should have an associated `<label>` and `for` attribute, ie `for="my-textfield"`.
 - Use landmark roles to identify seperate areas of your app.
   ```html
-  <header role="header">
-    Site wide specific content e.g. logo, global search, navigation
-    <nav role="navigation">
-    </nav>
-  </header>
+  <body role="application">
+    <header role="banner">
+      Site wide specific content e.g. logo, global search, navigation
+      <nav role="navigation">
+      </nav>
+    </header>
 
-  <main role="main">
-    Your main content
-  </main>
+    <main role="main">
+      Your main content
+    </main>
 
-  <aside role="complementary">
-    Secondary content
-  </aside>
+    <aside role="complementary">
+      Secondary content
+    </aside>
 
-  <footer role="contentinfo">
-  </footer>
+    <footer role="contentinfo">
+    </footer>
+  </body>
   ```
   ```html
   <section role="search">Search this site</section>
@@ -79,7 +81,7 @@ Here are some general guidelines to follow.
 - Use aria states attributes.
 
     ```html
-    <div role="checkbox" aria-checked="true"></div>
+    <div role="checkbox" aria-checked="true">checkbox</div>
     ```
 - `aria-live` for dynamic content. Use `assertative` value to interupt user, or `polite` to wait until user is done with current task.
 
@@ -91,3 +93,24 @@ Here are some general guidelines to follow.
     ```html
     <i class="nav-icon" aria-label="Navigation button"></i>
     ```
+
+- `aria-labelledby` to reference a label.
+
+  ```html
+  <div id="mylabel" class="hidden">My Progressbar</div>
+  <div role="progressbar" aria-labelledby="mylabel"></div>
+  ```
+
+- `role="progressbar"` for progress bars
+
+  ```html
+  <div role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuetext="Step 2: Copying files... " aria-valuemax="100">
+    Step 2: Copying files...
+  </div>
+
+- `aria-haspopup` for dialog modals.
+
+  ```html
+  <button aria-haspopup="true"></button>
+  <div role="dialog" arial-label="Modal" tabindex="-1"></div>
+  ```
